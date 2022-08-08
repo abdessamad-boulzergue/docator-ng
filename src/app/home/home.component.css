@@ -9,3 +9,22 @@
     list-style: none;
     padding: 0;
 }
+.cv_header {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.cv_title {
+    font-size: xx-large;
+    color: #98ad23;
+}
+.cv_profile {
+    font-size: x-large;
+    padding: 20px;
+}
+#profile-image{
+    border-radius: 136px;
+    width: 149px;
+    margin-left: 20%;
+}

@@ -8,22 +8,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { AbstractWelcomePageComponent } from './abstract-welcome-page/abstract-welcome-page.component';
-import { DocEditorComponent } from './doc-editor/doc-editor.component';
-import { HomeToolbarComponent } from './home-toolbar/home-toolbar.component';
-import { RubanComponent } from './ruban/ruban.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatListModule } from '@angular/material/list';
+
 import { ProductCardComponent } from './product-card/product-card.component';
+import { CvSectionComponent } from './cv-section/cv-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RubanComponent,
-    HomeToolbarComponent,
-    DocEditorComponent,
     HomeComponent,
     AbstractWelcomePageComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    CvSectionComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +30,8 @@ import { ProductCardComponent } from './product-card/product-card.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatToolbarModule,
+    MatSliderModule,
+    MatListModule,
     HttpClientModule
   ],
   providers: [],

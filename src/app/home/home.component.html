@@ -6,9 +6,7 @@
 				<img class="nav__logo" src="https://store.coinbureau.com/wp-content/uploads/2021/11/dark-mode-logo-01.svg" alt="Coin Bureau Logo">
 			</a>
             
-            
              <ul class="main-menu nav__menu">
-                 <li class="menu-item">Home</li>
                  <li class="menu-item">Shop</li>
                  <li class="menu-item">Contact</li>
             </ul> 
@@ -48,22 +46,58 @@
 
     </div>
     <div left-aside>
-        left 
+        <img id="profile-image" src="./assets/img/profile-image.jpg" />
+        <app-cv-section title="Profile" [style]="{ 'backgroundColor': '#cf712f'}">
+            <p> 
+                <span class="material-icons md-18">self_improvement</span>
+                ingenieur en developpement informatique
+            </p>
+        </app-cv-section>
+       <app-cv-section title="Experience" icon="engineering" [style]="{ 'backgroundColor': '#648213'}">
+        <p> 
+            <span class="material-icons md-18">self_improvement</span>
+            ingenieur en developpement informatique
+        </p>
+       </app-cv-section>
+       <app-cv-section title="Interest" icon="self_improvement" [style]="{ 'backgroundColor': '#b43c5a'}">
+        <p> 
+            <span class="material-icons md-18">self_improvement</span>
+            ingenieur en developpement informatique
+        </p>
+       </app-cv-section>
     </div>
     <div >
-        <div class="products">
-            <app-product-card  title='Seed Wallet' [price]="33.5"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="23.9"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="73.5"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="133.9"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="273.5"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="4.5"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="58.5"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="883.8"></app-product-card>
-            <app-product-card  title='Seed Wallet' [price]="533.5"></app-product-card>
-
-
-            
+        <div class="cv_header">
+             <div class="cv_title">  ABDESSAMAD BOULZERGUE </div>
+             <div class="cv_profile">  ingenieur de developpement informatique </div>
         </div>
+       <app-cv-section title="Profile" >
+        <p> 
+            <span class="material-icons md-18">self_improvement</span>
+            ingenieur en developpement informatique
+        </p>
+        <p> doté de connaissances très solides en informatique  </p>
+       </app-cv-section>
+
+       <app-cv-section title="Experience" icon="engineering" [style]="{ 'backgroundColor': '#165a9a'}">
+        <p> 
+            <span class="material-icons md-18">engineering</span>
+           4 ans  à sefas
+        </p>
+        <p> 
+            <span class="material-icons md-18">engineering</span>
+           2.5 ans d'Experience à COPAG
+        </p>
+       </app-cv-section>
+       <app-cv-section title="Interest" icon="self_improvement">
+        <p> 
+            <span class="material-icons md-18">engineering</span>
+           intilegence artificiel
+        </p>
+        <p> 
+            <span class="material-icons md-18">engineering</span>
+           Mathematique
+        </p>
+       </app-cv-section> 
     </div>
 </app-abstract-welcome-page>
