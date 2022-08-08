@@ -1,11 +1,69 @@
 <app-abstract-welcome-page>
     <div header>
-       header 
+        <div class="nav__container">
+
+            <a class="nav__logo" href="/" rel="noreferrer" aria-label="Link to Home">
+				<img class="nav__logo" src="https://store.coinbureau.com/wp-content/uploads/2021/11/dark-mode-logo-01.svg" alt="Coin Bureau Logo">
+			</a>
+            
+            
+             <ul class="main-menu nav__menu">
+                 <li class="menu-item">Home</li>
+                 <li class="menu-item">Shop</li>
+                 <li class="menu-item">Contact</li>
+            </ul> 
+            
+           
+            <div class="nav__menu--right">
+                <div class="nav__icons-container">
+                    <div class="nav__search">
+        
+                        <span class="nav__search--trigger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17.284" height="17.284" viewBox="0 0 17.284 17.284"><defs><style>.a{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><g transform="translate(1 1)"><ellipse class="a" cx="6.609" cy="6.609" rx="6.609" ry="6.609" transform="translate(0 0)"></ellipse><line class="a" x1="3.594" y1="3.594" transform="translate(11.277 11.277)"></line></g></svg>				
+                        </span>
+    
+                    </div>
+        
+                    <div class="nav__cart-icon xoo-wsc-cart-trigger">
+                        <span class="nav__cart-icon--wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23.476" height="22.5" viewBox="0 0 23.476 22.5"><defs><style>.a{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><g transform="translate(1 1)"><ellipse class="a" cx="0.976" cy="0.976" rx="0.976" ry="0.976" transform="translate(6.833 18.548)"></ellipse><ellipse class="a" cx="0.976" cy="0.976" rx="0.976" ry="0.976" transform="translate(17.571 18.548)"></ellipse><path class="a" d="M1,1H4.9L7.521,14.071a1.952,1.952,0,0,0,1.952,1.572h9.489a1.952,1.952,0,0,0,1.952-1.572l1.562-8.19H5.881" transform="translate(-1 -1)"></path></g></svg>
+                        </span>
+                    </div>
+                </div>
+                                    <div class="nav__login-buttons">
+        
+                            <a class="button--secondary button--login" href="/my-account" aria-label="Login" rel="noreferrer" type="button">
+                                Login
+                            </a>
+        
+                            <a class="button--primary--gold  button--signup" href="/signup" aria-label="Signup" rel="noreferrer" type="button">
+                                Signup
+                            </a>
+        
+                        </div>
+                    
+                    </div>
+        </div>
+
+
     </div>
     <div left-aside>
         left 
     </div>
     <div >
-        body
+        <div class="products">
+            <app-product-card  title='Seed Wallet' [price]="33.5"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="23.9"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="73.5"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="133.9"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="273.5"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="4.5"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="58.5"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="883.8"></app-product-card>
+            <app-product-card  title='Seed Wallet' [price]="533.5"></app-product-card>
+
+
+            
+        </div>
     </div>
 </app-abstract-welcome-page>

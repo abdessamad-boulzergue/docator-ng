@@ -1,0 +1,40 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    background: #24262b;
+    padding: 16px;
+    height: 300px;
+    width: 160px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product .add_to_cart_button {
+    display: flex;
+    border: 1px solid #d9dee9;
+    border-radius: 100px;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: auto;
+    padding: 6px 26px;
+    max-width: 140px;
+    font-size: .875rem;
+    margin-left: auto;
+    transition: all .25s;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.product .woocommerce-loop-product__title {
+    text-decoration: none;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 6px;
+}

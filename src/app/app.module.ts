@@ -13,6 +13,7 @@ import { HomeToolbarComponent } from './home-toolbar/home-toolbar.component';
 import { RubanComponent } from './ruban/ruban.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {MatIconModule} from '@angular/material/icon';
     HomeToolbarComponent,
     DocEditorComponent,
     HomeComponent,
-    AbstractWelcomePageComponent
+    AbstractWelcomePageComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

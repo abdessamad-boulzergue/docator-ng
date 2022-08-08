@@ -1,37 +1,30 @@
 .header{
-    float: right;
-    width: calc(100% - 320px);
-    margin-left: 20px;
+    float: left;
+    width: calc(100% - 260px);
+    height: 80px;
+    margin-left: 130px;
 }
 footer{
     float: right;
     width: calc(100% - 320px);
 }
 .home_sidebar_left {
-    width: 300px;
-    height: calc(100% - 50px);
-    margin: 0px 5px 0px 5px;
+    background: #24262b;
+    padding: 20px 100px;
+    border-radius: 10px;
+    min-width: 260px;
+    width: 0px;
+    margin: 60px 5px 0px 50px;
     overflow: auto;
-    background: #fff !important;
-    box-shadow: 0 0 5px 0 rgba(140, 140, 140, 0.88);
     float: left;
     box-sizing: border-box;
+    height: fit-content;
 }
 .homePage{
     width: 100%;
 }
 .homePage .welcomePageBody {
-    height: 700px;
-    overflow: auto;
-    display: block;
-    float: right;
-    width: calc(100% - 320px)!important;
-    left: inherit!important;
-    right: 0!important;
-    top: 0!important;
-    background: #fff;
-    padding: 0px 25px 0px 10px;
-    box-sizing: border-box;
-    box-shadow: 0 0 5px 0 rgba(140, 140, 140, 0.88);
-    border: none #241f1f;
+    margin: 58px 90px 77px 49px;
+    float: left;
+    width: calc(100% - 492px)!important;
 }
