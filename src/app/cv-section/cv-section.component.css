@@ -12,3 +12,7 @@
 .content{
     padding: 5px 0px 5px 10px;
 }
+
+div.title>span{
+    margin-right: 5px;
+}

@@ -15,6 +15,7 @@ import { MatListModule } from '@angular/material/list';
 
 import { ProductCardComponent } from './product-card/product-card.component';
 import { CvSectionComponent } from './cv-section/cv-section.component';
+import { CvForestComponent } from './cv-forest/cv-forest.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CvSectionComponent } from './cv-section/cv-section.component';
     HomeComponent,
     AbstractWelcomePageComponent,
     ProductCardComponent,
-    CvSectionComponent
+    CvSectionComponent,
+    CvForestComponent
   ],
   imports: [
     BrowserModule,

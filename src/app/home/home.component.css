@@ -1,13 +1,5 @@
-.products {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 42px;
-    display: grid;
-    margin: 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 42px;
-    list-style: none;
-    padding: 0;
+*, :after, :before {
+    box-sizing: border-box;
 }
 .cv_header {
     display: flex;
@@ -26,5 +18,104 @@
 #profile-image{
     border-radius: 136px;
     width: 149px;
-    margin-left: 20%;
+}
+
+
+.cv-head  {
+    text-align: center;
+    display: flex;
+    z-index: 99999;
+    background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+    -webkit-box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+}
+.cv-head .owner-name:hover a {
+    color: #ffc107;
+}
+.cv-sm-text {
+    font-size: 13px;
+}
+
+.cv-info-bar .cv-lang-skills {
+    display: block;
+    font-size: 0;
+}
+ .cv-lang-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.cv-app * {
+    scrollbar-width: none;
+} 
+.cv-lang-skills .cv-lang-skills-item {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+}
+ .cv-lang-skills .cv-lang-skills-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+  .cv-lang-skills .cv-lang-skills-item .cv-cirkle-progress {
+    width: 65%;
+    margin: 0 auto 15px;
+}
+path:last-child {
+    stroke: #ffc107;
+}
+ .cv-lang-skills .cv-lang-skills-item .cv-cirkle-progress .progressbar-text:after {
+    content: '%';
+    position: absolute;
+    right: -7px;
+}
+.cv-lang-skills .cv-lang-skills-item .cv-cirkle-progress .progressbar-text {
+    font-size: 13px;
+    color: #cacace !important;
+    position: relative;
+    left: 45% !important;
+}
+.cv-hard-skills .cv-hard-skills-item .cv-line-progress .progressbar-text {
+    width: 100%;
+    text-align: right;
+    top: -6px !important;
+    font-size: 13px;
+    color: #cacace !important;
+}
+
+.cv-hard-skills-item{
+    margin-top: 10px;
+}
+.cv-ls-divider {
+    background: #8c8c8e;
+    width: 100%;
+    height: 1px;
+    opacity: .3;
+}
+
+.cv_head_info{
+    padding: 0 15px;
+}
+
+ .cv-skill-heading {
+    height: 25px;
+}
+
+#scrollbar2 {
+    padding: 240px 0 50px;
+}
+.art-scroll-frame {
+    width: 100%;
+    height: calc(100vh - 30px);
+}
+.art-scroll-frame {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
 }

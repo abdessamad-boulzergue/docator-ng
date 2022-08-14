@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 export interface Section {
-  name: string;
-  updated: Date;
+  title: string;
+  note: number;
 }
 @Component({
   selector: 'app-home',
@@ -10,14 +10,12 @@ export interface Section {
 })
 
 export class HomeComponent implements OnInit {
-  folders: Section[] = [
-    { name: 'Photos', updated: new Date('1/1/16'),  },
-    {  name: 'Recipes', updated: new Date('1/17/16'), },
-    { name: 'Work',  updated: new Date('1/28/16'), },
-  ];
-  notes: Section[] = [
-    { name: 'Vacation Itinerary', updated: new Date('2/20/16'), },
-    {   name: 'Kitchen Remodel', updated: new Date('1/18/16'), },
+  cv_hard_skills: Section[] = [
+    {  title : "JAVA 8/11",  note: 90  },
+    {  title : "VUE JS",  note: 80  },
+    {  title : "Angular",  note: 50  },
+    { title :"SGBD	: SQLServer, MySQL", note:80},
+    { title :"CI/CD	: Docker, Maven, Git, Gerrit", note:80}
   ];
   
   constructor() { }

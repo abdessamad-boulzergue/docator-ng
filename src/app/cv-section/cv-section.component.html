@@ -6,6 +6,11 @@
     </div>
 
     <div class="content">
+
+        <div *ngFor="let item of data" [style]="item.style">  
+            <span class="material-icons md-18">{{item.icon}}</span>
+           {{ item.content }}
+        </div>
         <ng-content></ng-content>
     </div>
     

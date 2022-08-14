@@ -15,6 +15,8 @@ export class CvSectionComponent implements OnInit {
   @Input()
   style! : object;
 
+  @Input()
+  data! : Array<any>;
   
   constructor() { }
 
